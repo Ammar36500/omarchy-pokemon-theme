@@ -37,7 +37,7 @@ mv ~/.local/share/omarchy/default/walker/themes/omarchy-default/style.css.bak ~/
 
 ```bash
 
-# Setup for Hyprwalk
+# Setup for Hyprlock
 mv ~/.config/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf.bak
 ln -s ~/.config/omarchy/current/theme/hyprlock.conf ~/.config/hypr/hyprlock.conf
 
