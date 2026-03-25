@@ -67,8 +67,6 @@ The config shows a Pikachu sprite at size 8, followed by a system info panel wit
 
 <img width="1920" height="1200" alt="screenshot-2026-03-25_01-48-04" src="https://github.com/user-attachments/assets/6f098d9a-7307-44d1-9972-19f6f3c81411" />
 
-<img width="1920" height="1200" alt="screenshot-2026-03-25_01-48-30" src="https://github.com/user-attachments/assets/0c1d88c7-d183-4a5d-b2e7-fd90afcad35c" />
-
 <img width="1920" height="1200" alt="screenshot-2026-03-25_01-48-56" src="https://github.com/user-attachments/assets/0b131ba3-d86f-4de6-b3c8-e730f8feb51c" />
 
 # Waybar
@@ -82,9 +80,10 @@ The config shows a Pikachu sprite at size 8, followed by a system info panel wit
 
 <img width="402" height="638" alt="image" src="https://github.com/user-attachments/assets/e5d7713c-a17f-4646-8fbf-2f73f68637b3" />
 
-#HyprLocker
+# HyprLocker
 
-trying to find a way to take a screenshot :)
+<img width="1920" height="1200" alt="lockscreen" src="https://github.com/user-attachments/assets/0ef678ef-5d13-45ba-9140-839ea1d4c9ec" />
+
 
 
 ## 📦 Other Dependencies
