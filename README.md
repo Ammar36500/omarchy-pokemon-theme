@@ -1,5 +1,12 @@
 # Omarchy Pokemon Theme
 
+# Installation (for now)
+
+```bash
+git clone https://github.com/Ammar36500/Omarchy-Pokemon-theme
+
+```
+
 This is the Pokemon theme for [Omarchy.org](https://omarchy.org)
 
 ---
