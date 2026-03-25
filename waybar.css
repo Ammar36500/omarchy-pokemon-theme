@@ -23,7 +23,7 @@ window#waybar { background: transparent; }
 #custom-omarchy {
     min-width: 30px;
     min-height: 30px;
-    background-image: url("file:///.config/omarchy/current/theme/pokeball.jpg");
+    background-image: url("file:///home/username/.config/omarchy/current/theme/pokeball.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
