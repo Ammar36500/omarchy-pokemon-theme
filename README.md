@@ -1,5 +1,7 @@
 # Omarchy Pokemon Theme
 
+This is the Pokemon theme for [Omarchy.org](https://omarchy.org)
+
 # Installation
 
 ```bash
@@ -9,16 +11,43 @@ omarchy-theme-install https://github.com/Ammar36500/omarchy-pokemon-theme.git
 
 ```bash
 
-# Fix username in waybar
-sed -i "s|username|$USER|g" ~/.config/omarchy/current/theme/waybar.css
-
-# Symlink waybar to omarchy theme
+# Setup for Waybar
 rm ~/.config/waybar/style.css
 ln -s ~/.config/omarchy/current/theme/waybar.css ~/.config/waybar/style.css
+sed -i "s|username|$USER|g" ~/.config/omarchy/current/theme/waybar.css
+pkill waybar && waybar &
+
+# Remove symlink (revert to default)
+rm ~/.config/waybar/style.css
+cp ~/.config/omarchy/current/theme/waybar.css ~/.config/waybar/style.css
 
 ```
 
-This is the Pokemon theme for [Omarchy.org](https://omarchy.org)
+```bash
+
+# Setup for Walker
+mv ~/.local/share/omarchy/default/walker/themes/omarchy-default/style.css ~/.local/share/omarchy/default/walker/themes/omarchy-default/style.css.bak
+ln -s ~/.config/omarchy/current/theme/walker.css ~/.local/share/omarchy/default/walker/themes/omarchy-default/style.css
+
+# Remove symlink (revert to default)
+rm ~/.local/share/omarchy/default/walker/themes/omarchy-default/style.css
+mv ~/.local/share/omarchy/default/walker/themes/omarchy-default/style.css.bak ~/.local/share/omarchy/default/walker/themes/omarchy-default/style.css
+
+```
+
+```bash
+
+# Setup for Hyprwalk
+mv ~/.config/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf.bak
+ln -s ~/.config/omarchy/current/theme/hyprlock.conf ~/.config/hypr/hyprlock.conf
+
+# Remove symlink (revert to default)
+rm ~/.config/hypr/hyprlock.conf
+mv ~/.config/hypr/hyprlock.conf.bak ~/.config/hypr/hyprlock.conf
+
+```
+
+
 
 ---
 
