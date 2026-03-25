@@ -7,6 +7,17 @@ omarchy-theme-install https://github.com/Ammar36500/omarchy-pokemon-theme.git
 
 ```
 
+```bash
+
+# Fix username in waybar
+sed -i "s|username|$USER|g" ~/.config/omarchy/current/theme/waybar.css
+
+# Symlink waybar to omarchy theme
+rm ~/.config/waybar/style.css
+ln -s ~/.config/omarchy/current/theme/waybar.css ~/.config/waybar/style.css
+
+```
+
 This is the Pokemon theme for [Omarchy.org](https://omarchy.org)
 
 ---
