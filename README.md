@@ -11,7 +11,7 @@ omarchy-theme-install https://github.com/Ammar36500/omarchy-pokemon-theme.git
 
 ```bash
 
-# Setup for Waybar
+# Setup for Waybar (optional if any of the three dont come up)
 rm ~/.config/waybar/style.css
 ln -s ~/.config/omarchy/current/theme/waybar.css ~/.config/waybar/style.css
 sed -i "s|username|$USER|g" ~/.config/omarchy/current/theme/waybar.css
@@ -35,9 +35,9 @@ mv ~/.local/share/omarchy/default/walker/themes/omarchy-default/style.css.bak ~/
 
 ```
 
-```bash
+```bash 
 
-# Setup for Hyprlock
+# Setup for Hyprlock ( WARNING! if you switch themes, it will show a black screen just type password)
 mv ~/.config/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf.bak
 ln -s ~/.config/omarchy/current/theme/hyprlock.conf ~/.config/hypr/hyprlock.conf
 
