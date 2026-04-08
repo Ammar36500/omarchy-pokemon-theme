@@ -9,8 +9,9 @@
     "modules": [
         {
             "type": "command",
-            "text": "pokemon-colorscripts -p pikachu --no-title -s 8",
-            "key": "\n"
+            "text": "pokemon-colorscripts -r --no-title",
+            "key": "\n",
+            "outputColor": true
         },
         {
             "type": "custom",
